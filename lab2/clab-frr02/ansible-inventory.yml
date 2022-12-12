@@ -1,0 +1,16 @@
+all:
+  children:
+    linux:
+      hosts:
+        clab-frr02-h1:
+          ansible_host: 172.20.20.12
+        clab-frr02-h2:
+          ansible_host: 172.20.20.8
+        clab-frr02-kril:
+          ansible_host: 172.20.20.11
+        clab-frr02-r1:
+          ansible_host: 172.20.20.9
+        clab-frr02-r2:
+          ansible_host: 172.20.20.10
+        clab-frr02-r3:
+          ansible_host: 172.20.20.7
